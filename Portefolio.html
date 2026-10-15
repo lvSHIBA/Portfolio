@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portefolio - Elwan CHEYSSON</title>
+</head>
+<body>
+    <header>
+        <h1>Elwan CHEYSSON</h1>
+        <nav>
+            <a href="#acceuil">Acceuil</a>
+            <a href="#a_propos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="acceuil">
+        <img src="image-acceuil.jpg" alt="Image d'acceuil">
+        <h1>Elwan CHEYSSON</h1>
+        <p>Étudiant en BTS SIO SISR</p>
+        <button onclick="window.location.href='Portefolio.html'">Découvrir mon portefolio</button>
+    </section>
+
+    <section id="languages">
+        <div class="language">
+            <img src="Images/Icons/HTML.svg" alt="Icon HTML">
+            <p>HTML</p>
+        </div>
+        <div class="language">
+            <img src="Images/Icons/CSS.svg" alt="Icon CSS">
+            <p>CSS</p>
+        </div>
+        <div class="language">
+            <img src="Images/Icons/JS.svg" alt="Icon JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="language">
+            <img src="Images/Icons/PHP.svg" alt="Icon PHP">
+            <p>PHP</p>
+        </div>
+    </section>
+
+    <section id="a_propos">
+        <h2>À propos de moi</h2>
+        <img src="image-a_propos.jpg" alt="Image à propos de moi">
+        <p>Je suis un étudiant passionné par l'informatique et le développement web. J'aime apprendre de nouvelles technologies et travailler sur des projets innovants.</p>
+        <a href="profil.pdf" download>En savoir plus -></a>
+    </section>
+
+    <section id="competences">
+        <h2>Compétences</h2>
+        <div class="competence">
+            <h3>Compétence 1</h3>
+            <p>Description de la compétence 1.</p>
+        </div>
+        <div class="competence">
+            <h3>Compétence 2</h3>
+            <p>Description de la compétence 2.</p>
+        </div>
+        <div class="competence">
+            <h3>Compétence 3</h3>
+            <p>Description de la compétence 3.</p>
+        </div>
+        <div class="competence">
+            <h3>Compétence 4</h3>
+            <p>Description de la compétence 4.</p>
+        </div>
+        <div class="competence">
+            <h3>Compétence 5</h3>
+            <p>Description de la compétence 5.</p>
+        </div>
+        <div class="competence">
+            <h3>Compétence 6</h3>
+            <p>Description de la compétence 6.</p>
+        </div>
+    </section>
+
+    <section id="realisations">
+        <h2>Réalisations</h2>
+        <div class="realisation">
+            <h3>Réalisations 1</h3>
+            <img src="image-realisation1.jpg" alt="Image 1">
+            <p>Description de la réalisation 1.</p>
+            <button onclick="window.location.href='realisations.html'">Découvrir</button>
+        </div>
+        <div class="realisation">
+            <h3>Réalisations 2</h3>
+            <img src="image-realisation2.jpg" alt="Image 2">
+            <p>Description de la réalisation 2.</p>
+            <button onclick="window.location.href='realisations.html'">Découvrir</button>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification" onclick="window.location.href='certifications.html'">
+            <h3>Certification 1</h3>
+            <p>Description de la certification 1.</p>
+        </div>
+        <div class="certification" onclick="window.location.href='certifications.html'">
+            <h3>Certification 2</h3>
+            <p>Description de la certification 2.</p>
+        </div>
+    </section>
+
+    <section id="Veille">
+        <h2>Veille</h2>
+        <div class="veille" onclick="window.location.href='veille.html'">
+            <h3>Veille 1</h3>
+            <p>Description de la veille 1.</p>
+        </div>
+        <div class="veille" onclick="window.location.href='veille.html'">
+            <h3>Veille 2</h3>
+            <p>Description de la veille 2.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <h1>ELWAN CHEYSSON</h1>
+        <p>&copy; 2026 Elwan CHEYSSON. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
